@@ -1,0 +1,152 @@
+@font-face
+{
+    font-family: "font1";
+    src: url("./fonts/determination.ttf")
+}
+
+nav
+{
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5em;
+    background-color: #300000;
+    width: auto;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-family: "font1";
+}
+
+li
+{
+    text-align: center;
+}
+
+.box1  
+{
+    display: flex;
+    justify-content: center;
+    padding: 5em 5em;
+    background-color: #750000;
+    width: auto;
+    height: 5px;
+    z-index: 0;
+}
+
+.hover1
+{
+    margin-top: -106px;
+    z-index: -1;
+}
+.size2:hover
+{
+    content: url("images/morcego_rover2.png");
+}
+
+body
+{
+    background-color: #a50000;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    text-shadow: 6px 2px 0px black;
+    font-family: "font1";
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-family: "font1";
+    text-align: center;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.center2
+{
+    text-align: center;
+}
+
+.size1
+{
+    z-index: 1;
+    margin-top: -50px;
+    width: 372px;
+    height: 101px;
+}
+
+footer img
+{
+    margin-top: 60px;
+}
+
+
+img
+{
+    position: relative;
+}
+
+.box1 img
+{
+    object-fit: contain;
+}
+
+.buttons
+{
+    display: block;
+    background-color: #d32000;
+    margin: -5px;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 36px;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+}
+
+.buttons2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons2 ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 40px;
+}
+
+.buttons2_1
+{
+    font-family: "font1";
+    display: block;
+    text-shadow: 2px 2px 0px black;
+    background-color: #d32000;
+    padding: 15px 36px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+p
+{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
